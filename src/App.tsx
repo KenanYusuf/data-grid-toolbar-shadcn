@@ -122,7 +122,7 @@ function Toolbar() {
         value={view}
         color="primary"
         className="ml-auto"
-        onChange={(value: string) => setView(value)}
+        onChange={(event, value) => setView(value)}
         render={(props) => (
           <ToggleGroup
             type="single"
